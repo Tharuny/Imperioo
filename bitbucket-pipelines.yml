@@ -1,0 +1,20 @@
+image: node:18.17.0
+
+pipelines:
+  default:
+    - step:
+        name: Install Dependencies
+        caches:
+          - node
+        script:
+          - npm install
+    - step:
+        name: Build Project
+        caches:
+          - node
+        script:
+          - npm run build
+    - step:
+        name: Deploy
+        script:
+          - echo "Deploy step here"
