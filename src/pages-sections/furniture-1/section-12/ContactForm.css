@@ -1,0 +1,222 @@
+/* Base Styles */
+.container {
+  background-color: #e3364e;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.leftSection {
+  flex: 0 0 45%;
+}
+
+.title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: normal;
+  margin: 0%;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+
+.description {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.form {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 20px;
+}
+
+.inputGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input, .emailInput {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  cursor: pointer;
+  width: 40%;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+.buttonHover {
+  color: red;
+  font-weight: bold;
+}
+
+.errorMessage {
+  color: yellow;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.successMessage {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Media Queries */
+
+/* Tablets (768px and above) */
+@media (max-width: 1280px) {
+  .container {
+      height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .form, .leftSection {
+    width: 100%;
+  }
+
+  .inputRow {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 80%;
+  }
+
+  .container{
+      margin-bottom: 0%;
+      height: 300px;
+  }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+
+  .container {
+      height: 300%;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .input, .emailInput {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .errorMessage, .successMessage {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+      margin-bottom: 0%;
+      height: 652px;
+
+  .button {
+      margin-left: 40px;
+  }    
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container
+  {
+      height: 700px;
+  }
+  .button {
+      margin-left: 40px;
+      line-height: 1.5;
+  }    
+  }
+
+/* Extra Small Devices (320px and below) */
+@media (max-width: 320px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .input, .emailInput {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .button {
+    font-size: 16px;
+    padding: 6px 12px;
+  }
+
+  .errorMessage, .successMessage {
+    font-size: 10px;
+  }
+}

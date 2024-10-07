@@ -1,0 +1,128 @@
+@font-face {
+  font-family: marquez;
+  src: url("/assets/fonts/Marquez.ttf");
+
+  font-family: haboro-soft;
+  src: url("/assets/fonts/Haboro/Haboro Soft Norm Regular/Haboro Soft Norm Regular.ttf");
+}
+.H1 {
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgb(85, 78, 78);
+  font-family: haboro-soft;
+}
+
+.H3 {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: haboro-soft;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+/* .Grid {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  width: 80%;
+  height: 350px;
+  margin: 0;
+} */
+.Grid:hover {
+  background-color: #fcfcfc;
+  color: #e3364e;
+}
+.img-wrapper .lazy-image {
+  height: 170px;
+  width: 170px;
+}
+.img-wrapper .lazy-image:hover {
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+.btn-products {
+  background-color: transparent;
+  width: 30%;
+  padding: 20px;
+  margin: 80px 35% 40px;
+  font-size: large;
+  outline: none;
+  border: 1px solid #e3364e;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.btn-products:hover {
+  background-color: #e3364e;
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.pname {
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.product-card7 {
+  margin-left: 20px;
+  background-color: #e3364e;
+}
+
+.product-title{
+  display: flex;
+  justify-content: center;
+  margin-left: 100%;
+} 
+
+@media screen and (min-width: 430px) and (max-width: 680px) {
+  .btn-products {
+    font-size: 10px;
+    width: 300px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 329px) and (max-width: 429px) {
+  .btn-products {
+    font-size: 5px;
+    font-weight: 600;
+  }
+ 
+}
+
+@media screen and (min-width: 330px) and (max-width : 700px)  {
+  .outergrid{
+    padding-left: 15%;
+  }
+  .pname {
+    margin-right: 54px;
+    margin-top: -20px;
+   }
+   .product-title {
+    width: 100%;
+    margin-left: 50%;
+    margin-top: -30px;
+   }
+
+} 
+@media screen and (min-width: 1024px) and (max-width: 1366) {
+  .product-title {
+      margin-left: 90px;
+      margin-top: -20px;
+  }
+  
+}
+
+
+ .content{
+  display: flex;
+  justify-content: center;
+} 

@@ -1,0 +1,333 @@
+@font-face {
+    font-family: marquez;
+    src: url('/assets/fonts/Marquez.ttf');
+
+    font-family: haboro-soft;
+    src: url('/assets/fonts/Haboro/Haboro Soft Norm Regular/Haboro Soft Norm Regular.ttf');
+}
+.H1 {
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rgb(85, 78, 78);
+    font-family: haboro-soft;
+}
+
+.H3 {
+    font-weight: 100;
+    font-size: 20px;
+    font-family: haboro-soft;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.Grid{
+    text-align: center;
+    width: 80%;
+    height: 350px;
+    margin: 0;
+}
+.Grid:hover{
+    background-color: #fcfcfc;
+    color:#E3364E;
+}
+.img-wrapper .lazy-image{
+    height: 170px;
+    width: 170px;
+  
+}
+.img-wrapper .lazy-image:hover{
+    opacity:0.4;
+    transition: opacity 0.3s ease;
+}
+.btn-products{
+    background-color: transparent;
+    width: 40%;
+    padding:20px;
+    margin: 20px 35% 40px 22px;
+    font-size: large;
+    outline: none;
+    border: 1px solid #E3364E;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    margin-right: 40px;
+    margin-left: 30%;
+
+}
+
+.product-title {
+   margin-left: 80px;
+   margin-top: 20px;
+  
+
+}
+@media screen and (min-width: 430px) and (max-width: 680px){
+    .btn-products{
+        font-size: 11px;
+        width: 130px;
+    }
+    .product-title {
+        margin-right: 20%;
+        margin-top: 20px;
+    }
+    .pname {
+        margin-top: 20px;
+    }
+  
+   
+} 
+
+@media screen and (min-width: 431px) and (max-width: 765px) {
+    .product-title {
+        margin-left: 3%;
+        /* margin-top: 5px !important; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 429px){
+    .btn-products{
+        font-size: 9px;
+        font-weight: 600;
+        margin-top: -5px;
+        /* margin-left: 108px; */
+        align-items: center;
+        justify-content: center;
+    }
+    .product-title {
+        margin-left: 10px;
+        margin-top: -35px !important;
+     
+     }
+
+}
+@media screen and (max-width: 390px) {
+    .product-title {
+        margin-top: -20px !important;
+    }
+    .H1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .product-title {
+        margin-left: 8px;
+        margin-top: -85px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .product-title {
+         margin-left: 20px;
+        margin-top: -60px;
+    }
+    .pname {
+        margin-top: -20PX !important;
+    }
+    
+    
+}
+/* @media screen and (min-width: 412px) and (max-width: 914px) {
+    .product-title {
+        margin-top: 20px !important;
+    }
+   
+} */
+
+/* @media screen and (max-width: 1024px)  {
+    .product-title {
+        margin-top: -25px;
+        margin-left: 10px;
+        /* margin-left: -2px; */
+        /* margin-right: 10px; */
+        /* margin-left: 30px; */
+    /* } */
+    
+/* }  */
+/* @media screen and (max-width: 430px) {
+    /* .pname {
+        margin-top: 10px !important;
+    } */
+/* }  */
+
+/* @media screen and (max-width : 1280px) and (min-width: 800px){
+    /* .product-title {
+        margin-top: 90px;
+    }
+    .pname {
+        margin-top: 40px !important;
+    } */
+/* } */ 
+
+/* @media screen and (max-width: 360px) {
+    .product-title {
+        margin-top: -20px !important;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .product-title {
+        margin-top: -20px !important;
+    }
+    .pname {
+        margin-top: -20px;
+    }
+} */
+
+/* @media screen and (max-width: 540px) and (max-width: 720px) {
+        .product-title {
+            margin-right: 36px !important;
+            margin-left: 9px;
+            margin-top: -80px;
+            /* margin-bottom: -80px; */
+        /* }     */
+/* } */ 
+
+
+.btn-products:hover{
+    background-color: #E3364E;
+    color:white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.pname{
+    font-weight: 500;
+    font-size: .9rem;
+    text-align: center;
+    color:rgb(0, 0, 0);
+ 
+}
+
+/* Mobile phones */
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile phones */
+    .product-title {
+        margin-top: -20px !important;
+    }
+    .pname {
+        margin-top: -20px;
+    }
+    .product-title {
+        margin-top: -20px !important;
+    }
+    .pname {
+        margin-top: 10px !important;
+    }
+    .H1 {
+        font-size: 1.5rem;
+        padding-bottom: 10px;
+        font-weight: 600;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+  }
+  
+  /* Large smartphones */
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for larger smartphones */
+    .product-title {
+        margin-right: 36px !important;
+        margin-left: 9px;
+        margin-top: -80px;
+        
+    }  
+  }
+  
+  /* iPads and tablets */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .product-title {
+        margin-top: -25px;
+        margin-left: 10px;
+        /* margin-left: -2px; */
+        /* margin-right: 10px; */
+        margin-left: 30px;
+    }
+    /* Styles for iPads and tablets */
+  }
+  .product-title {
+    margin-left: 20px;
+   margin-top: -60px;
+}
+.pname {
+   margin-top: -10px !important;
+   /* margin-left: -25px; */
+}
+.btn-products {
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+  
+  /* iPad Pro */
+  @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .product-title {
+        margin-top: -25px;
+        margin-left: 10px;
+        
+        margin-left: 30px;
+    }
+  }
+  
+  /* Laptops and small desktops */
+  @media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for laptops and small desktop monitors */
+    .product-title {
+        margin-left: 85px;
+        
+    }
+    .pname {
+        margin-top: 40px !important;
+    }
+  }
+  
+  /* Large desktop monitors */
+  @media only screen and (min-width: 1281px) and (max-width: 1680px) {
+    /* Styles for larger desktop monitors */
+    .product-title {
+         text-align: center; 
+        margin-top: -10px;
+        margin-left: 70px;
+    }
+  }
+
+  
+  /* Extra large monitors */
+  @media only screen and (min-width: 1681px) {
+    /* Styles for extra large monitors */
+    .pname {
+        margin-left: 20px;
+    }
+    .product-title {
+        margin-left: 20px;
+    }
+  }
+
+  @media only screen and (min-width: 2560px) {
+    .product-title {
+        margin-left: 20px;
+    }
+    .pname {
+        margin-left: 40px;
+        
+    }
+}
+  
+ 
+  
+
+
+  

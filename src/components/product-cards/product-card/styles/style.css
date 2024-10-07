@@ -1,0 +1,15 @@
+.btn{
+    background-color: rgb(198, 85, 85);
+    cursor: pointer;
+    padding: 10px;
+    color:white;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 35px;
+}
+.btn:active{
+    transform: scale(1.04);
+    /* transition: all 0.3s ease; */
+}

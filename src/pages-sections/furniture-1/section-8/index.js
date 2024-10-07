@@ -1,0 +1,1 @@
+export { default } from "../section-8/section-8";

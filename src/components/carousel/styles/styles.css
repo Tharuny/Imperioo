@@ -1,0 +1,25 @@
+/* @media screen and (max-width: 480px) {
+    .css-e7l9xk {
+        min-height: 186px !important; 
+        margin-top: 25px ;
+      }      
+} */
+@media (max-width: 599.98px) {
+  .css-ihffm5 {
+    min-height: 186px !important;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 959.98px) {
+  .css-ihffm5 {
+    min-height: 315px !important;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .css-ihffm5 {
+    min-height: 505px !important;
+  }
+}

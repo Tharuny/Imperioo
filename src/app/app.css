@@ -1,0 +1,7 @@
+@font-face {
+    font-family: haboro;
+    src: url('/assets/fonts/Haboro/Haboro-Soft.ttf');
+}
+*{
+    font-family: haboro;
+}

@@ -1,0 +1,85 @@
+{
+    "reviews": [
+      {
+        "review_id": "1",
+        "user": {
+          "user_id": "101",
+          "username": "john_doe",
+          "profile_pic": "https://example.com/profiles/john_doe.jpg"
+        },
+        "product": {
+          "product_id": "501",
+          "product_name": "Wireless Headphones",
+          "product_image": "https://example.com/products/headphones.jpg"
+        },
+        "rating": 5,
+        "content": "I love these headphones. The sound quality is incredible and they are very comfortable to wear.",
+        "date": "2024-06-01"
+      },
+      {
+        "review_id": "2",
+        "user": {
+          "user_id": "102",
+          "username": "jane_smith",
+          "profile_pic": "https://example.com/profiles/jane_smith.jpg"
+        },
+        "product": {
+          "product_id": "502",
+          "product_name": "Smartphone Case",
+          "product_image": "https://example.com/products/smartphone_case.jpg"
+        },
+        "rating": 4,
+        "content": "The case is very sturdy and provides good protection for my phone. The design is sleek as well.",
+        "date": "2024-06-02"
+      },
+      {
+        "review_id": "3",
+        "user": {
+          "user_id": "103",
+          "username": "alice_wonder",
+          "profile_pic": "https://example.com/profiles/alice_wonder.jpg"
+        },
+        "product": {
+          "product_id": "503",
+          "product_name": "Bluetooth Speaker",
+          "product_image": "https://example.com/products/bluetooth_speaker.jpg"
+        },
+        "rating": 3,
+        "content": "The speaker has decent sound quality for the price, but the battery life could be better.",
+        "date": "2024-06-03"
+      },
+      {
+        "review_id": "4",
+        "user": {
+          "user_id": "104",
+          "username": "bob_builder",
+          "profile_pic": "https://example.com/profiles/bob_builder.jpg"
+        },
+        "product": {
+          "product_id": "504",
+          "product_name": "Fitness Tracker",
+          "product_image": "https://example.com/products/fitness_tracker.jpg"
+        },
+        "rating": 2,
+        "content": "The fitness tracker often gives inaccurate readings. I'm disappointed with the performance.",
+        "date": "2024-06-04"
+      },
+      {
+        "review_id": "5",
+        "user": {
+          "user_id": "105",
+          "username": "charlie_brown",
+          "profile_pic": "https://example.com/profiles/charlie_brown.jpg"
+        },
+        "product": {
+          "product_id": "505",
+          "product_name": "Laptop Sleeve",
+          "product_image": "https://example.com/products/laptop_sleeve.jpg"
+        },
+        "rating": 5,
+        "content": "This laptop sleeve is of excellent quality and fits my laptop perfectly. Highly recommended!",
+        "date": "2024-06-05"
+      }
+    ]
+  }
+  

@@ -1,0 +1,10 @@
+#searchrows{
+    display: none;
+}
+.search{
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    color:#A9AEB7;
+    padding-left: 32%;
+    padding-top:2%;
+}
